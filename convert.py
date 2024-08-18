@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv("org/training_data_flw.csv")
+df = pd.read_csv("training_data_flw.csv")
 df = df.fillna("")
 
 text_col = []
