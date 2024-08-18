@@ -40,7 +40,7 @@ self.args.backend = 'local'
 3.autotrain/trainers/cli/utils.py
    AutoModelForCausalLM.from_pretrained 去掉 quantization_config=bnb_config
    
-還有很多跟量化有關的要關掉~
+還有很多跟量化有關的要關掉~ 忘記切確位置需要慢慢解
 
 ### 5. 將參數寫在finetune.py後執行 ###
 ```
