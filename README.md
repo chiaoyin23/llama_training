@@ -30,12 +30,12 @@ self.args.backend = 'local'
 
 2.autotrain/trainers/cli/train_clm_sft.py
 註解掉
-   # trainer_args = dict(
-   #    args=args,
-   #    model=model,
-   #     callbacks=callbacks,
-   # )
+    trainer_args = dict(
+       args=args,
+       model=model,
+        callbacks=callbacks,
+    )
 修改成 args = SFTConfig(**training_args)
 
 3.autotrain/trainers/cli/utils.py
-   AutoModelForCausalLM.from_pretrained 去掉 #quantization_config=bnb_config,
+   AutoModelForCausalLM.from_pretrained 去掉 quantization_config=bnb_config,
