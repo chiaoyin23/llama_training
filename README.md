@@ -17,7 +17,9 @@ pip install autotrain-advanced
 
 ```
 
-### 4. 修改會出問題的檔案 (路徑為 C:\Users\jenny\AppData\Local\Programs\Python\Python312\Lib\site-packages\autotrain)
+### 4. 修改會出問題的檔案 
+(路徑為 C:\Users\jenny\AppData\Local\Programs\Python\Python312\Lib\site-packages\autotrain)
+
 1.autotrain/cli/run_llm.py
 在 __init__ 加上
 if isinstance(self.args.block_size, str):
