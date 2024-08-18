@@ -47,4 +47,5 @@ self.args.backend = 'local'
 ```
 python finetune.py
 ```
-
+### 6. 產生微調後的 model 
+存放在剛剛 finetune.py 設定的名稱 (my-autotrain-llm) 中
